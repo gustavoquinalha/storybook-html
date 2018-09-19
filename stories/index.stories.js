@@ -2,6 +2,7 @@ import { document } from 'global';
 import { storiesOf } from '@storybook/html';
 import { action } from '@storybook/addon-actions';
 import { withLinks } from '@storybook/addon-links';
+import centered from '@storybook/addon-centered/html';
 
 // css
 import '../assets/css/master.css';
@@ -10,9 +11,11 @@ import '../assets/css/master.css';
 import welcome from '../assets/components/welcome.html';
 
 storiesOf('Components', module)
+  .addDecorator(centered)
   .add('Welcome', () => welcome);
 
 storiesOf('Atoms', module)
+  .addDecorator(centered)
 
   .add(
     'Branding',
