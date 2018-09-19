@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  line-height: 1.4;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+}
+
+.main {
+  margin: 15px;
+  max-width: 600px;
+}
+
+.btn {
+  background: #333;
+  color: #fff;
+  border: none;
+  margin: 2px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+.btn:active {
+  background: #111
+}
+
+p {
+  margin-bottom: 20px;
+}
